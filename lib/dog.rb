@@ -8,7 +8,7 @@ def self.clear_all
   @@all.clear
 end
 def self.all 
-  @@all.each.name  do |n|
+  @@all.each do |n|
     puts "#{n}"
     
 end 
