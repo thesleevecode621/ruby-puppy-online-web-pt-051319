@@ -4,5 +4,5 @@ class Dog
     @name=name
     @@all << self
 end
-def selfinitialize
+def self
 end 
