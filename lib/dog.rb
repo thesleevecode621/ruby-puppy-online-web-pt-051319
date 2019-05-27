@@ -9,7 +9,7 @@ def self.clear_all
 end
 def self.all 
   @@all.each do |n|
-    puts "#"
+    puts "#{n}"
     
 end 
 end 
